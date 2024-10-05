@@ -59,8 +59,8 @@ body {
 .menu-dropdown {
   position: absolute;
   right: 2rem;
-  width: 180px;
-  margin: 10px;
+  width: 18vh;
+  margin: 2vh;
   height: 0;
 
   display: block;
@@ -75,7 +75,7 @@ body {
 }
 
 .menu-dropdown.open {
-  height: 100px;
+  height: 12vh;
 }
 
 .menu-dropdown a {
@@ -86,5 +86,5 @@ body {
   text-decoration: none;
   color: black;
 
-  padding: 0.2rem;
+  padding: 0.4rem;
 }
