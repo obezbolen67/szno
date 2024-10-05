@@ -7,7 +7,7 @@ body {
   background-color: #02192B;
   background-size: cover;
   background-position: center;
-  background-image: url('https://lh5.googleusercontent.com/stjc1zDOthA0AH9E6FeSgsLTfBvb0NnEYFI7JyQwDvxZ5sW-21kvyHJORDmjcJkoy99R9oiSE9LviOB6ALpl6rI=w16383');
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(49, 111, 186, 0.845)), url("./public/header.png");
   backdrop-filter: blur(5px);
   
   font-family: Verdana, Geneva, Tahoma, sans-serif;
