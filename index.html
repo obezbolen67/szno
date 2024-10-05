@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="./public/logo.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>SubjectZNO</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    
+    <header>
+        <div class='navbar'>
+            <div class='nav-logo'>
+                <a href='#'><img src="public/logo.png" alt=""/></a>
+            </div>
+
+            <div class='nav-items'>
+                <a href='home'>Головна</a>
+                <a href='lessons'>Посилання</a>
+                <a href='info'>Iнформацiя</a>
+            </div>
+
+            <div class='nav-menu'>
+                <img src="public/menu.svg" alt=''/>
+            </div>
+
+        </div>
+    </header>
+
+    <div class='menu-dropdown'>
+        <a href='home'>Головна</a>
+        <a href='lessons'>Посилання</a>
+        <a href='info'>Iнформацiя</a>
+    </div>
+
+    <script>
+        const button = document.querySelector('.nav-menu');
+        const buttonIcon = document.querySelector('.nav-menu img')
+        const dpMenu = document.querySelector('.menu-dropdown');
+        
+        button.onclick = function () {
+            dpMenu.classList.toggle('open')
+            const isOpen = dpMenu.classList.contains('open')
+
+            buttonIcon.src = isOpen ? "public/xcross.svg" : "public/menu.svg" 
+
+        }
+    </script>
+  </body>
+</html>
